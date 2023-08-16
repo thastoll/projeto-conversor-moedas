@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Conversor de Moedas - Novo Teste</title>
+</head>
+<body>
+
+    <div class="logo">
+        <img src="assets/logo.gif" alt="Logotipo" />
+    </div>
+
+    <main class="boxContent">
+        <label class="content">
+            Converter <b>de</b>
+            <select>
+                <option>
+                    R$ Real Brasileiro
+                </option>
+            </select>
+        </label>
+
+        <label class="content">
+            Converter <b>para</b>
+            <select class="currencySelect">
+                <option value="dolar">
+                    US$ Dólar Americano
+                </option>
+                <option value="euro">
+                    € Euro
+                </option>
+                <option value="libra">
+                    £ Libra
+                </option>
+                <option value="bitcoin">
+                    ฿ BitCoin
+                </option>
+            </select>
+        </label>
+
+        <label class="content">
+            Valor
+            <input class="inputValueConvert" placeholder="R$10.000,00">
+        </label>
+
+        <button class="btnConvert">Converter</button>
+
+        <section class="content2">
+            <div>
+                <img src="assets/real.png" alt="logo-moeda-converter" />
+                <p>Real</p>
+                <p class="valueToConvert"> <b>R$ 0,00</b> </p>
+            </div>
+
+            <img src="assets/arrow.png" alt="seta" />
+
+            <div>
+                <img class="currencyImg" src="assets/dolar.png" alt="logo-moeda-convertida" />
+                <p class="currencyName">Dólar</p>
+                <p class="valueConverted"> <b>US$ 0,00</b> </p>
+            </div>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>

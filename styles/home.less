@@ -1,0 +1,96 @@
+body{
+    background-color: @purple;
+}
+
+.error{
+    background-color: red;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo{
+    text-align: center;
+    img{
+        width: 300px;
+        margin: 10px 0;
+    }
+}
+
+.boxContent{
+    font-family:'Roboto', sans-serif;
+    background-color: @gray;
+    border: 1px solid @gray;
+    border-radius: 30px;
+    width: 400px;
+    margin: 10px auto;
+    .content{
+        display: block;
+        color: @darkGray;
+        margin: 40px 35px;
+        select{
+            display: block;
+            width: 100%;
+            height: 45px;
+            margin: 10px auto;
+            text-align: left;
+            border: 1px solid @lightGray;
+            border-radius: 5px;
+            outline: none;
+            appearance: none;
+            padding-left: 18px;
+            font-size: 16px;
+            font-weight: 700;
+            color: @lightBlack;
+            cursor: pointer;
+        }
+        input{
+            display: block;
+            width: 100%;
+            height: 45px;
+            margin: 10px auto;
+            border: 1px solid @lightGray;
+            border-radius: 5px;
+            outline: none;
+            padding-left: 18px;
+            font-size: 16px;
+            font-weight: 700;
+            color: @lightBlack;
+            cursor: pointer;
+        }
+    }
+    .btnConvert{
+        display: block;
+        margin: 20px auto;
+        background: @purple;
+        width: 85%;
+        height: 48px;
+        border: none;
+        border-radius: 15px;
+        font-size: 18px;
+        color: @white;
+        font-weight: 700;
+        cursor: pointer;
+        box-shadow: -1px 10px 11px -4px rgba(0,0,0,0.18);
+        &:hover{
+            opacity: 0.8;
+        }
+        &:active{
+            opacity: 0.5;;
+        }
+    }
+    .content2{
+        margin: 40px 30px;
+        text-align: center;
+        border: 1px solid @purple;
+        border-radius: 20px;
+        div{
+            margin: 20px 0;
+            font-size: 18px;
+            color: @lightBlack;
+            p{
+                margin: 3px 0;
+            }
+        }
+    }
+}
